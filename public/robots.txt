@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://simple-portfolio.nealfrazier.tech/sitemap.xml
