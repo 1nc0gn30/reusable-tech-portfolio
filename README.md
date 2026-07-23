@@ -1,3 +1,61 @@
+# reusable-tech-portfolio
+
+Portfolio of Neal Frazier, an AI and Software Security Developer building intelligent security solutions, modern web apps, and practical automation.
+
+## Overview
+Portfolio of Neal Frazier, an AI and Software Security Developer building intelligent security solutions, modern web apps, and practical automation.
+
+## Tech Stack
+- React
+- Vite
+- Tailwind CSS
+- Netlify (deployed)
+
+## Project Structure
+```
+reusable-tech-portfolio/
+  - plugins
+  - public
+  - src
+  - tools
+  (104 files total)
+```
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+```bash
+git clone https://github.com/1nc0gn30/reusable-tech-portfolio.git
+cd reusable-tech-portfolio
+npm install
+```
+
+### Development
+```bash
+npm run dev
+```
+
+### Build
+```bash
+npm run build
+```
+
+### Available Scripts
+  npm run dev - vite --host :: --port 3000
+  npm run build - mkdir -p ../../dist/apps && node tools/generate-llms.js || true && vite build --outDir ../../dist/apps/web
+  npm run build:netlify - node tools/generate-llms.js || true && vite build --outDir dist
+  npm run start - vite preview --outDir ../../dist/apps/web --host :: --port 3000
+  npm run lint - eslint . --quiet
+  npm run lint:warn - eslint .
+
+## Original README
+<details>
+<summary>Click to expand original README</summary>
+
 # Portfolio Web App
 
 [![Deploy to Netlify](https://img.shields.io/badge/Deploy-Netlify-00C7B7?logo=netlify&logoColor=white)](https://app.netlify.com/)
@@ -171,3 +229,27 @@ Before sharing publicly:
 ## License
 
 MIT License. See `LICENSE`.
+
+</details>
+
+## TODO / Roadmap
+- [ ] Add unit tests
+- [ ] Add Dockerfile for containerized deployment
+- [ ] Add CI/CD pipeline
+- [ ] Add contribution guidelines (CONTRIBUTING.md)
+- [ ] Improve error handling and edge cases
+- [ ] Add environment variable documentation
+- [ ] Update dependencies to latest versions
+- [ ] Add code comments and inline documentation
+
+## Deployment
+This project is deployed on Netlify. See netlify.toml for configuration.
+
+## Author
+**Neal Frazier** - [@AshAmplifies](https://github.com/1nc0gn30)
+
+## Links
+- GitHub: https://github.com/1nc0gn30/reusable-tech-portfolio
+
+---
+*This README was enhanced as part of the neals-projects-2026 batch update.*
