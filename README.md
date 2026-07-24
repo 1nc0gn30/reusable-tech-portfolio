@@ -1,17 +1,29 @@
-# reusable-tech-portfolio
+<!-- xonettn -->
+<div align="center">
+
+# 💼 Reusable Tech Portfolio
 
 Portfolio of Neal Frazier, an AI and Software Security Developer building intelligent security solutions, modern web apps, and practical automation.
 
-## Overview
+
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-000000?logo=three.js&logoColor=white) ![Framer](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white) ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white)
+
+![Deploy](https://img.shields.io/badge/Deployed-Netlify-00C7B7?logo=netlify&logoColor=white)
+
+</div>
+
+---
+
+## 📋 Overview
 Portfolio of Neal Frazier, an AI and Software Security Developer building intelligent security solutions, modern web apps, and practical automation.
 
-## Tech Stack
+## 📦 Tech Stack
 - React
 - Vite
 - Tailwind CSS
 - Netlify (deployed)
 
-## Project Structure
+## 🗂️ Project Structure
 ```
 reusable-tech-portfolio/
   - plugins
@@ -21,30 +33,30 @@ reusable-tech-portfolio/
   (104 files total)
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 - Node.js (v18+)
 - npm or yarn
 
-### Installation
+### 📦 Installation
 ```bash
 git clone https://github.com/1nc0gn30/reusable-tech-portfolio.git
 cd reusable-tech-portfolio
 npm install
 ```
 
-### Development
+### 💻 Development
 ```bash
 npm run dev
 ```
 
-### Build
+### 🔨 Build
 ```bash
 npm run build
 ```
 
-### Available Scripts
+### ⚙️ Available Scripts
   npm run dev - vite --host :: --port 3000
   npm run build - mkdir -p ../../dist/apps && node tools/generate-llms.js || true && vite build --outDir ../../dist/apps/web
   npm run build:netlify - node tools/generate-llms.js || true && vite build --outDir dist
@@ -52,7 +64,7 @@ npm run build
   npm run lint - eslint . --quiet
   npm run lint:warn - eslint .
 
-## Original README
+## 📂 Original README
 <details>
 <summary>Click to expand original README</summary>
 
@@ -65,7 +77,7 @@ npm run build
 
 A modern React + Vite portfolio with cinematic 3D visuals, runtime style customization, and Netlify-ready deployment.
 
-## Preview
+## 👁️ Preview
 
 ![Portfolio Preview](./public/og-image.png)
 
@@ -85,7 +97,7 @@ A modern React + Vite portfolio with cinematic 3D visuals, runtime style customi
   - Canonical URL + JSON-LD
   - `robots.txt` + `sitemap.xml`
 
-## Tech Stack
+## 📦 Tech Stack
 
 - React 18
 - Vite 7
@@ -93,7 +105,7 @@ A modern React + Vite portfolio with cinematic 3D visuals, runtime style customi
 - Framer Motion
 - Three.js
 
-## Project Structure
+## 🗂️ Project Structure
 
 - `src/config/portfolioConfig.js`: site content, links, theme defaults, 3D settings
 - `src/lib/applyTheme.js`: runtime theme and font system
@@ -103,7 +115,7 @@ A modern React + Vite portfolio with cinematic 3D visuals, runtime style customi
 - `netlify.toml`: Netlify build/publish/redirect config
 - `public/_redirects`: SPA fallback routing
 
-## Local Development
+## 💻 Local Development
 
 ```bash
 npm install
@@ -112,7 +124,7 @@ npm run dev
 
 Default local URL: `http://localhost:3000`
 
-## Build
+## 🔨 Build
 
 General production build:
 
@@ -168,7 +180,7 @@ This repo currently includes sample models from Khronos glTF Sample Models:
 
 Source: https://github.com/KhronosGroup/glTF-Sample-Models
 
-## Netlify Deployment
+## 🚀 Netlify Deployment
 
 This repo already includes:
 
@@ -176,14 +188,14 @@ This repo already includes:
 - `public/_redirects`
 - Netlify form markup in `index.html` and `HomePage.jsx`
 
-### Deploy Steps
+### 🚀 Deploy Steps
 
 1. Push repo to GitHub
 2. Import project in Netlify
 3. Build command: `npm run build:netlify`
 4. Publish directory: `dist`
 
-## Netlify Contact Form
+## 📬 Netlify Contact Form
 
 The contact form is configured for Netlify Forms with:
 
@@ -195,7 +207,7 @@ After first deploy, verify submissions in Netlify:
 
 - Site dashboard -> `Forms` -> `contact`
 
-## SEO Setup
+## ⚙️ SEO Setup
 
 Configured in `index.html`:
 
@@ -214,7 +226,7 @@ If your domain changes, update all references from:
 
 - `https://simple-portfolio.nealfrazier.tech/`
 
-## Public Release Checklist
+## ✅ Public Release Checklist
 
 Before sharing publicly:
 
@@ -226,13 +238,13 @@ Before sharing publicly:
    - `npm run build:netlify`
 5. Confirm `.gitignore` is respected and no secrets are tracked
 
-## License
+## 📜 License
 
 MIT License. See `LICENSE`.
 
 </details>
 
-## TODO / Roadmap
+## 📝 TODO / Roadmap
 - [ ] Add unit tests
 - [ ] Add Dockerfile for containerized deployment
 - [ ] Add CI/CD pipeline
@@ -242,14 +254,22 @@ MIT License. See `LICENSE`.
 - [ ] Update dependencies to latest versions
 - [ ] Add code comments and inline documentation
 
-## Deployment
+## 🚀 Deployment
 This project is deployed on Netlify. See netlify.toml for configuration.
 
-## Author
+## 👤 Author
 **Neal Frazier** - [@AshAmplifies](https://github.com/1nc0gn30)
 
-## Links
+## 🔗 Links
 - GitHub: https://github.com/1nc0gn30/reusable-tech-portfolio
 
 ---
 *This README was enhanced as part of the neals-projects-2026 batch update.*
+
+---
+
+<div align="center">
+
+**[xonettn]** · Built by [Neal Frazier](https://github.com/1nc0gn30) · [@AshAmplifies](https://twitter.com/AshAmplifies)
+
+</div>
